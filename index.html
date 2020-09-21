@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="background">
+      <div id="contenitore">
+        <!-- inizio header -->
+        <header>
+          <div id="logo-header">
+            <img id="icon" src="img/gmail-icon.png" alt="gmail-logo">
+            <span id="gmail-titolo">Gmail</span>
+            <hr>
+          </div>
+
+          <div class="secondo-header">
+            <input type="text" placeholder="Cerca">
+            <button type="button" name="button">VAI</button>
+            <div id="contatore-mail">You have <span id="unread-count"> 30 </span> unread emails.
+            </div>
+            <hr>
+          </div>
+        </header>
+
+          <!-- sezione main -->
+        <main>
+          <div class="email-row read"><input type="checkbox"><strong>&bigstar; Oggetto della mail</strong>
+            <span class="testo-email">...testo della mail...</span>
+          </div>
+          <div class="email-row unread"><input type="checkbox"><strong>&bigstar; Oggetto della mail</strong>
+            <span class="testo-email">...testo della mail...</span>
+          </div>
+          <div class="email-row read"><input type="checkbox"><strong>&bigstar; Oggetto della mail</strong>
+            <span class="testo-email">...testo della mail...</span>
+          </div>
+          <div class="email-row read"><input type="checkbox"><strong>&bigstar; Oggetto della mail</strong>
+            <span class="testo-email">...testo della mail...</span>
+          </div>
+          <hr>
+        </main>
+
+        <!-- sezione footer -->
+        <footer><span id="gmail-footer">Gmail</span> <span id="testo-footer">powered by Alessandro</span></footer>
+      </div>
+    </div>
+  </body>
+</html>
